@@ -1,5 +1,5 @@
 import FilterTabs from "@/src/components/ui/filterTabs/FilterTabs";
-import { TireProductContent } from "@/src/components/ui/filterTabs/TireProductContent";
+import { TireProductContent } from "@/src/components/ui/favorites/TireProductContent";
 
 export default function FavoritesPage() {
   return (

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ArrowBackIcon } from "@/src/components/svg/ArrowBackIcon";
-import ProfileDetailsSettings from "@/src/components/ui/profileSettings/ProfileDetailsSettings";
+import ProfileDetailsSettings from "@/src/components/ui/profileSettings/profileDetails/ProfileDetailsSettings";
 
 export default function ProfileDetailsSettingsPage() {
   return (
