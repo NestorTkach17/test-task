@@ -9,7 +9,7 @@ export const LogoIcon = (): JSX.Element => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_1124_1234)">
+      <g clipPath="url(#clip0_1124_1234)">
         <path
           d="M7.19141 15.0503C7.19141 15.0779 7.1947 15.1045 7.1958 15.131C7.1958 15.1034 7.19141 15.0768 7.19141 15.0503Z"
           fill="url(#paint0_radial_1124_1234)"
@@ -36,8 +36,8 @@ export const LogoIcon = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(7.19251 15.0901) scale(0.0285767 0.0287546)"
         >
-          <stop stop-color="#FF6A00" />
-          <stop offset="1" stop-color="#FFAC70" />
+          <stop stopColor="#FF6A00" />
+          <stop offset="1" stopColor="#FFAC70" />
         </radialGradient>
         <radialGradient
           id="paint1_radial_1124_1234"
@@ -47,8 +47,8 @@ export const LogoIcon = (): JSX.Element => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(14.8412 15.0499) scale(14.8423 14.9336)"
         >
-          <stop stop-color="#FF6B00" />
-          <stop offset="1" stop-color="#D23818" />
+          <stop stopColor="#FF6B00" />
+          <stop offset="1" stopColor="#D23818" />
         </radialGradient>
         <linearGradient
           id="paint2_linear_1124_1234"
@@ -58,8 +58,8 @@ export const LogoIcon = (): JSX.Element => {
           y2="15.0092"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#87280E" />
-          <stop offset="1" stop-color="#2E0E05" />
+          <stop stopColor="#87280E" />
+          <stop offset="1" stopColor="#2E0E05" />
         </linearGradient>
         <linearGradient
           id="paint3_linear_1124_1234"
@@ -69,8 +69,8 @@ export const LogoIcon = (): JSX.Element => {
           y2="15.0501"
           gradientUnits="userSpaceOnUse"
         >
-          <stop stop-color="#87280E" />
-          <stop offset="1" stop-color="#2E0E05" />
+          <stop stopColor="#87280E" />
+          <stop offset="1" stopColor="#2E0E05" />
         </linearGradient>
         <clipPath id="clip0_1124_1234">
           <rect
