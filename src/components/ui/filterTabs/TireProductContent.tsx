@@ -4,13 +4,10 @@ export const TireProductContent = () => {
   const cardCount = [1, 2, 3, 4];
 
   return (
-    <div className="grid grid-cols-1 mb-10">
+    <div className="divide-y divide-gray-200 mb-10">
       {cardCount.map((index) => (
         <div key={index}>
           <TireProductCard />
-          {index < cardCount.length && (
-            <div className="h-[1px] bg-gray-200 my-3"></div>
-          )}
         </div>
       ))}
     </div>
@@ -19,20 +16,22 @@ export const TireProductContent = () => {
 
 const TireProductCard = () => {
   return (
-    <div className="flex flex-col p-4">
-      <div className="flex mb-4">
-        <div className="flex-1">
-          <h2 className="text-2xl font-medium mb-1">
+    <div className="p-4">
+      <div className="flex gap-4">
+        <div className="flex-1 min-w-0">
+          <h2 className="text-xl sm:text-2xl font-medium mb-1 truncate">
             Continental Conti Contact 7
           </h2>
 
-          <div className="flex items-center mb-2">
-            <div className="w-4 h-4 rounded-full bg-[#4DB748] mr-2"></div>
-            <span>Laos: 2 tk</span>
-            <span className="ml-4">Asukoht: Vesse ladu</span>
+          <div className="flex flex-wrap items-center gap-2 mb-2">
+            <div className="flex items-center">
+              <div className="w-4 h-4 rounded-full bg-[#4DB748] mr-2"></div>
+              <span className="whitespace-nowrap">Laos: 2 tk</span>
+            </div>
+            <span className="whitespace-nowrap">Asukoht: Vesse ladu</span>
           </div>
 
-          <div className="flex items-center gap-2 text-sm">
+          <div className="flex flex-wrap gap-2 text-sm">
             <span className="bg-primary-orange text-white px-2 py-1 rounded">
               8.6
             </span>
@@ -87,22 +86,24 @@ const TireProductCard = () => {
           </div>
         </div>
 
-        <div className="flex-shrink-0 ml-4">
-          <div className="w-24 h-24 bg-gray-100 rounded-md"></div>
+        <div className="flex-shrink-0">
+          <div className="w-20 h-20 sm:w-24 sm:h-24 bg-gray-100 rounded-md"></div>
         </div>
       </div>
 
-      <div>
+      <div className="mt-4 flex flex-wrap gap-2">
         <span>Kasutatud (5-6mm)</span>
-        <span className="ml-2">☀️</span>
+        <span>☀️</span>
         <span>225/55/19 H91 DOT25</span>
       </div>
 
-      <div className="flex justify-between items-center">
-        <div className="flex items-center">
-          <span className="text-2xl font-medium">€1.180,00</span>
-          <span className="ml-2">/ tk</span>
-          <div className="ml-4">Kuumakse al. €90</div>
+      <div className="mt-4 flex flex-wrap justify-between items-center gap-4">
+        <div className="flex flex-wrap items-center gap-2">
+          <div className="flex items-center">
+            <span className="text-xl sm:text-2xl font-medium">€1.180,00</span>
+            <span className="ml-2">/ tk</span>
+          </div>
+          <div className="whitespace-nowrap">Kuumakse al. €90</div>
         </div>
 
         <div className="w-8 h-8 rounded-full bg-[#E9E9E9] flex items-center justify-center">

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavigationWrapper from "@/src/components/ui/layout/NavigationWrapper";
 import { graphik } from "@/src/styles/font";
 
 export const metadata: Metadata = {
@@ -16,7 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${graphik.className} antialiased bg-white`}>
-        <NavigationWrapper>{children}</NavigationWrapper>
+        {children}
       </body>
     </html>
   );

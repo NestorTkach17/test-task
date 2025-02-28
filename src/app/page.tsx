@@ -1,3 +1,5 @@
+import NavigationWrapper from "../components/ui/layout/NavigationWrapper";
+
 export default function Home() {
-  return <p>Home</p>;
+  return <NavigationWrapper>Home</NavigationWrapper>;
 }

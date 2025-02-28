@@ -6,8 +6,8 @@ import ProfileDetailsSettings from "@/src/components/ui/profileSettings/ProfileD
 
 export default function ProfileDetailsSettingsPage() {
   return (
-    <div className="bg-white">
-      <div className="flex items-center p-4 border-b border-gray-200 relative">
+    <div className="min-h-screen bg-white">
+      <div className="flex items-center p-4 border-b border-gray-200">
         <Link href="/profile" className="absolute left-4">
           <ArrowBackIcon />
         </Link>
