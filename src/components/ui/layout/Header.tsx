@@ -1,8 +1,8 @@
 "use client";
-import React, { JSX } from "react";
+
 import { EstiIcon, LogoIcon, NotificationIcon, WorldIcon } from "../../svg";
 
-export default function Header(): JSX.Element {
+export default function Header() {
   return (
     <header className="bg-white fixed top-0 w-full flex text-center pt-[20px] px-[20px] items-center justify-between">
       <div className="flex gap-[8px] items-center">
