@@ -14,7 +14,6 @@ export default function FilterTabs({
   const [activeTab, setActiveTab] = useState<string>(initialTab);
 
   const handleTabClick = (id: string) => {
-    console.log("Tab clicked:", id); // Add logging to debug
     setActiveTab(id);
   };
 

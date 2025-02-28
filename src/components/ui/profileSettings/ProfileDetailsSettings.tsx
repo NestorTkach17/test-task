@@ -24,7 +24,6 @@ const ProfileDetailsSettings = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
   };
 
   return (
