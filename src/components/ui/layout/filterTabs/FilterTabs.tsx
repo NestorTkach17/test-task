@@ -1,7 +1,8 @@
 import { JSX } from "react";
 type filterTabTittle = "miffy" | "boris" | "mordred";
 interface IFilterTabs {
-  filterTabTittle: filterTabTittle;
+  // TODO make required
+  filterTabTittle?: filterTabTittle;
 }
 export default function FilterTabs({
   filterTabTittle,

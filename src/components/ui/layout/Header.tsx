@@ -7,12 +7,12 @@ export default function Header(): JSX.Element {
     <header className="bg-white fixed top-0 w-full flex text-center pt-[20px] px-[20px] items-center justify-between">
       <div className="flex gap-[8px] items-center">
         <LogoIcon />
-        <a className="font-bold text-[28px]">Rattad24</a>
+        <a className="font-bold text-[28px] text-black">Rattad24</a>
       </div>
       <div className="flex items-center gap-[17px]">
         <div className="flex items-center gap-[7px]">
           <EstiIcon />
-          <div className="">Esti</div>
+          <p className="text-black">Esti</p>
         </div>
         <div className="flex gap-[16px] items-center">
           <WorldIcon />
